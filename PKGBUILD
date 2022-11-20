@@ -12,8 +12,8 @@ depends=('grub')
 makedepends=('git')
 replaces=('vimix-grub' 'grub-theme-vimix' 'grub-themes-vimix')
 makedepends=('git')
-source=("https://github.com/endeavouros-team/grub2-theme-endeavouros/archive/refs/tags/${pkgver}.tar.gz")
-sha512sums=('e6abbb09284ab503f26960d963c51919a3d167529ccbd8f723295f2c01b47e9d449d3edaaa942900275b1d573ed5fbc48e834d87cf0bc6fb370a455429b8632b')
+source=("https://github.com/EndeavourOS-archive/grub2-theme-endeavouros/archive/refs/tags/${pkgver}.tar.gz")
+sha512sums=('09c82dde9f49a3eb1ded040e011fbb4f682b47e5bbc3399fe4944b0d4935c40021b293e92158e90026bca2286aa5eb6d9b858ddb13b80911b9b1d796b22089c8')
 
 package() {
     install -dm 755 "$pkgdir/boot/grub/themes/EndeavourOS"
