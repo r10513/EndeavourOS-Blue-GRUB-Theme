@@ -6,11 +6,11 @@
 
 ##### Edit /etc/default/grub :
 ```shell
-GRUB_THEME="/boot/grub/themes/EndeavourOS/theme.txt"
+GRUB_THEME="/boot/grub/themes/EndeavourOS-Blue-GRUB-Theme/theme.txt"
 ```
 ##### Update grub :
 ```shell
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
-<img src="https://raw.githubusercontent.com/EndeavourOS-archive/grub2-theme-endeavouros/main/preview.png" alt="preview"/>
+<img src="https://raw.githubusercontent.com/EndeavourOS-Blue-GRUB-Theme/main/preview.png" alt="preview"/>
